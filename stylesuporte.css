@@ -1,0 +1,94 @@
+body {
+    background: #30003f;
+    min-height: 100vh;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px
+}
+.topo {
+    position: relative;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: purple;
+}
+.logo img {
+    max-height: 100px;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold; 
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+}
+.menu a:hover {
+    border-bottom:2px  solid green;
+}
+h2, h3, p {
+    color:white;
+}
+.aaaa h3  {
+    font-size: 15px;
+}
+.faq-btn {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+.faq-btn:hover {
+    background-color: #7a0a9d;
+}
+.faq-content {
+    width: 100%;
+    box-sizing: border-box;
+    display: none;
+    padding: 15px;
+    background-color: rgb(13, 114, 0);
+    border-left: 4px solid #7a0a9d;
+}
+.centralizadiv {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.deladinho {
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.deladinho h3 {
+    margin-top: 10px;
+}
+.deladinho a {
+    color: #99ffff;
+}
