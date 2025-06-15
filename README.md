@@ -1,0 +1,1 @@
+É só um sitezinho meia bomba pra trabalho escolar, acabei reutilizando um que havia feito como parte de outro trabalho por ter exatamente os requisitos e um pouco a mais, além de ter um leve orgulhosinho por ter estudado até que bastante pra fazer esse site
